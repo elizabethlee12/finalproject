@@ -10,8 +10,7 @@ import UIKit
 class TodayUIViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
 var imagePicker = UIImagePickerController()
     
-    @IBOutlet weak var captionTextField: UITextField!
-    
+
     @IBOutlet weak var imageView: UIImageView!
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]){
     
@@ -23,7 +22,6 @@ var imagePicker = UIImagePickerController()
     override func viewDidLoad() {
         super.viewDidLoad()
         imagePicker.delegate = self
-        captionTextField.text = "Add Caption Here"
         }
     
     @IBAction func choosePhotoTapped(_ sender: Any) {
@@ -32,9 +30,6 @@ var imagePicker = UIImagePickerController()
         present(imagePicker, animated: true, completion: nil)
     }
     
-    @IBAction func saveCaptionTapped(_ sender: UIButton) {
-        Captions.newCaption = captionTextField.text!
-    }
     
     /*
     // MARK: - Navigation
