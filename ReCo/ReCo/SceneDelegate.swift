@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  ReCo
 //
-//  Created by scholar on 8/15/22.
+//  Created by Scholar on 8/15/22.
 //
 
 import UIKit
