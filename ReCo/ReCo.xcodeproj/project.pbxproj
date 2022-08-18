@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD1EC73528AEAFE700C6735E /* WeekUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1EC73428AEAFE700C6735E /* WeekUIViewController.swift */; };
 		BD443A1B28AAD1EE00BF3060 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD443A1A28AAD1EE00BF3060 /* AppDelegate.swift */; };
 		BD443A1D28AAD1EE00BF3060 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD443A1C28AAD1EE00BF3060 /* SceneDelegate.swift */; };
 		BD443A1F28AAD1EE00BF3060 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD443A1E28AAD1EE00BF3060 /* ViewController.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BD1EC73428AEAFE700C6735E /* WeekUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekUIViewController.swift; sourceTree = "<group>"; };
 		BD443A1728AAD1EE00BF3060 /* ReCo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReCo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD443A1A28AAD1EE00BF3060 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BD443A1C28AAD1EE00BF3060 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 				BD443A1C28AAD1EE00BF3060 /* SceneDelegate.swift */,
 				BD443A1E28AAD1EE00BF3060 /* ViewController.swift */,
 				BD443A2028AAD1EE00BF3060 /* Main.storyboard */,
+				BD1EC73428AEAFE700C6735E /* WeekUIViewController.swift */,
 				BDF4AC0728AC284200651CB0 /* TodayUIViewController.swift */,
 				BD443A2828AAD1F000BF3060 /* LaunchScreen.storyboard */,
 				BD443A2B28AAD1F000BF3060 /* Info.plist */,
@@ -144,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD1EC73528AEAFE700C6735E /* WeekUIViewController.swift in Sources */,
 				BD443A1F28AAD1EE00BF3060 /* ViewController.swift in Sources */,
 				BD443A1B28AAD1EE00BF3060 /* AppDelegate.swift in Sources */,
 				BD443A2528AAD1EE00BF3060 /* ReCo.xcdatamodeld in Sources */,
